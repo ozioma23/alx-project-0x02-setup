@@ -9,7 +9,7 @@ export interface CardProps {
 }
 
 export interface ButtonProps {
-  ize?: "small" | "medium" | "large";
+  size?: "small" | "medium" | "large";
   shape?: "rounded-sm" | "rounded-md" | "rounded-full";
   onClick?: () => void;
   children: React.ReactNode;  

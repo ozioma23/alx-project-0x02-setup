@@ -1,7 +1,7 @@
 
 import React from "react";
 import Card from "@/components/common/Card";
-import PostModal from "@/components/common/PostModal";
+import PostModal from "@/components/common/PostModal"
 
 interface Post {
   title: string;

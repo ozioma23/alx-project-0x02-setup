@@ -4,6 +4,7 @@ import Header from "@/components/layout/Header";
 const About = () => {
     return (
 <div>
+          <Header />
      <h1 className="text-2xl font-semibold">About Page</h1>
       <div className="flex gap-4">
         <Button size="small" shape="rounded-sm">Small</Button>
